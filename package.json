@@ -1,0 +1,32 @@
+{
+  "name": "virtualeventmanagementplatform",
+  "version": "1.0.0",
+  "description": "An Event management platform",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohitHereVats/VirtualEventManagementPlatform.git"
+  },
+  "author": "Mohit Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohitHereVats/VirtualEventManagementPlatform/issues"
+  },
+  "homepage": "https://github.com/MohitHereVats/VirtualEventManagementPlatform#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^7.0.5",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
